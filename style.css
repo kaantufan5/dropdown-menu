@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.baslik-1 {
+    background-color: gray;
+    height: 10vh;
+}
+
+.baslik-1 h1{
+    text-align: center;
+    padding: 25px;
+}
+
+nav.acilir-menu {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+nav.acilir-menu i{
+    font-size: 2rem;
+}
+
+nav.acilir-menu ul{
+    display: none;
+}
+
+nav.acilir-menu:hover ul{
+    display: block;
+    list-style-type: none;
+    background-color: green;
+}
+
+nav.acilir-menu:hover {
+    background-color: darkgreen;
+}
+
+nav.acilir-menu ul li{
+    padding: 0.8rem;
+}
+
+#menü-icon-yazi {
+    font-size: 2rem;
+}
